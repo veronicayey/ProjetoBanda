@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+body {
+    background-color: #d3d3d3;
+    color:#2c2c2c;
+    font-size: medium;
+  }
+h1, h2, h3 { 
+  color: #fc7cdc;
+  text-align: center;
+  font-family:'Cormorant', serif;
+  font-size: 500%;
+  } 
+  h2, h3 {
+      font-size: xx-large;
+  }
+h3 {
+  text-align: justify;
+}
+  
+.botton { 
+    
+    background-color: #b47d84;
+    border: 2px solid #fc7cdc;
+    border-radius: 10px;
+    padding: 10px 1px 10px 40%;
+  }
+  .botao{
+    background-color: #ece9e6;
+    box-shadow: 1px 3px 2px rgba(0, 0, 0, .3),
+                  1px 2px 7px rgba(0, 0, 0, 0.2);
+    color: #86577a;
+    display: inline-block;
+    font-family:'Cormorant', serif;; 
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:1px 1px 0 #584253;
+    padding: 10px;
+    position: relative;
+    width: 100px;
+
+  }
+
+.botao:hover{
+	color: #330000;
+	background-color: #ffc0cb;
+	border-radius: 20px 0px 20px 0px;
+}
+a { color: #fc7cdc;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffc0cb
+}
+.nome {
+  background-color: #b47d84;
+    border: 1px solid #fc7cdc;
+    border-radius: 10px;
+    padding: 0px 0px 0px 40%;
+    font-family:'Cormorant', serif;
+}
+.nome:hover {
+  background-color: #ffc0cb;
+}
